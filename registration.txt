@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <body>
+      <h2><u>
+        Cricket Registration Form
+      </u></h2>
+      
+      <form>
+        <center>
+          <label for="name">Team Name:</label><br>
+          <input type="text" id="name" name="name" required><br><br>
+          
+          <label for="captain">Captain's Name:</label><br>
+          <input type="text" id="captain" name="captain" required><br><br>
+          
+          <label for="number">Captain's Number:</label><br>
+          <input type="number" id="number" name="number" required><br><br>
+          
+          <label for="player">Player's Name:</label><br>
+          <input type="text" id="player" name="player"
+          textarea="player" rows="5" cols="20" required><br><br>
+          
+          <label for="sub">Substitue Player's:</label><br>
+          <input type="text" id="sub" name="sub" 
+          textarea="sub" row="5" cols="20"><br><br>
+          
+          <label for="num">Number of Player's:</label><br>
+          <input type="number" id="num" name="num"
+          placeholder="including substitues"><br><br>
+          
+          <input type="submit" name="submit">
+          
+        </center>
+      </form>
+  </body>
+</html> 
